@@ -27,5 +27,25 @@ enum Color {
     Blue
 }
 let myColor : Color = Color.Green;
-console.log(myColor);
+// console.log(myColor);
+
+
+// functions
+function returnMyName() : string {
+    return myName;
+}
+
+
+function sayHello() : void {
+    console.log("say Hello");
+}
+
+
+
+function multiply(val1: number, val2:number) : number {
+    return val1*val2;
+}
+console.log(multiply(2,8));
+
+
 
